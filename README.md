@@ -7,7 +7,7 @@ de boas práticas de uma aplicação seguindo a arquitetura de software DDD (Dom
 - Entity framework Core
 - SQL Server
 
-  # Implementado
+# Implementado
  - [x] Controller de Pedidos
     - Criação de pedido
     - Consulta de pedido
