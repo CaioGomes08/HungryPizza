@@ -13,20 +13,17 @@
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
     <PackageReference Include="Moq" Version="4.20.70" />
-    <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
-    <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
-    <PackageReference Include="xUnit" Version="2.8.1" />
-    <PackageReference Include="xunit.extensibility.execution" Version="2.8.1" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HungryPizza.Application\HungryPizza.Application.csproj" />
     <ProjectReference Include="..\HungryPizza.Domain\HungryPizza.Domain.csproj" />
-    <ProjectReference Include="..\HungryPizza.Infraestructure\HungryPizza.Infraestructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+    <Using Include="Xunit" />
   </ItemGroup>
 
 </Project>
